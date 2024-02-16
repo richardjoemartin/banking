@@ -1,0 +1,57 @@
+*{
+    /* overflow-x:hidden;
+    overflow-y:hidden; */
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row{
+    justify-content: space-around;
+}
+@media screen and (max-width:400px){
+    *{max-width: 400px;}
+.about{
+    max-width:265px;
+    
+}
+.row{
+    
+    display:flex;
+align-items: center;
+justify-content: center;
+    flex-direction: column;
+    
+}
+.col-5{margin-left: -100px;
+    align-items: center;
+justify-content: center;
+background-color: rgba(0, 0, 0, 0.9);
+}
+.col-5 input{
+    max-width:150px;
+
+   
+    
+}
+.form-control{
+    max-width:190px;
+    margin-left: 55px;
+}
+h3{
+    margin-left: 10%;
+}
+.col-5 button{
+    margin-left: 64px;
+
+}
+#withdr{
+    margin-left: 10%;
+}
+#withdra{
+    margin-left: 10%;
+}
+#balance_amount,#balance_amnt{
+    font-size: 12px;
+    margin-left: 10%;
+}
+#c{height: 380px;}
+}

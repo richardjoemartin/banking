@@ -1,0 +1,8 @@
+#r{
+    width:350px;
+}
+@media screen and (max-width:400px){
+    #r{
+        max-width:100%;
+    }
+}
